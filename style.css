@@ -1736,7 +1736,7 @@ a[rel~="attachment"]:hover,
     top: 0;
     z-index: 0;
 	margin-bottom: 5%;
-	margin-top: -58px; /* height of h1.entry-title */
+	margin-top: 0; /* 0 for mobile meets nav */
 }
 
 /* to fix bigger div than image */
@@ -1772,6 +1772,10 @@ a[rel~="attachment"]:hover,
 }
 
 @media only screen and (min-width: 930px) {
+
+	.banner {
+		margin-top: -58px; /* height of h1.entry-title */
+	}
 
 	.banner-page .content-sidebar-wrap {
 		padding-bottom: .5%;
