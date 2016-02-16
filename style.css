@@ -1201,12 +1201,14 @@ main.content,
 /* templates wide and bleed */
 .page-template-page-wide main.content,
 .page-template-page-banner main.content,
+.page-template-page-events main.content,
 .page-template-page-bleed main.content {
   width: 100%;
   max-width: none;
 }
 
 .page-template-page-wide .content-sidebar-wrap,
+.page-template-page-events .content-sidebar-wrap,
 .page-template-page-banner .content-sidebar-wrap {
     margin: 0 40px;
 }
@@ -1224,6 +1226,7 @@ main.content,
 
 @media only screen and (min-width: 1300px) {
   .page-template-page-wide .content-sidebar-wrap, 
+  .page-template-page-events .content-sidebar-wrap, 
   .page-template-page-banner .content-sidebar-wrap {
       margin: 0px 40px;
   }
@@ -1231,6 +1234,7 @@ main.content,
 
 @media only screen and (min-width: 1400px) {
   .page-template-page-wide .content-sidebar-wrap, 
+  .page-template-page-events .content-sidebar-wrap, 
   .page-template-page-banner .content-sidebar-wrap {
       margin: 0 40px;
   }
@@ -1241,6 +1245,7 @@ main.content,
   
 @media only screen and (min-width: 1480px) {
   .page-template-page-wide .content-sidebar-wrap, 
+  .page-template-page-events .content-sidebar-wrap, 
   .page-template-page-banner .content-sidebar-wrap {
       margin: 0 40px;
   }
