@@ -314,14 +314,14 @@ hr {
 .textUp {
   font-weight:700;
   margin-top:-16px;
-	text-align:center;
+  text-align:center;
   }
 .up {
-	margin-top:-50px;
-	}
+  margin-top:-50px;
+  }
 .michele {
-	max-width:40%;
-	}
+  max-width:40%;
+  }
 /* Headings
 --------------------------------------------- */
 
@@ -375,7 +375,7 @@ p.inner-locations { /* Cape Cod | Boston | New York */
 }
 
 p.inner-locations {
-	  font-size: 14px;
+    font-size: 14px;
   background-color: #F2F3F4;
   margin-top:80px;
   z-index: 10;
@@ -430,12 +430,12 @@ h6 {
   font-style: italic;
   }
 .blueText a {
-	color:#6A9BAA !important;
-	}
+  color:#6A9BAA !important;
+  }
 .center {
-	text-align:center;
-	padding-top:40px;
-	}
+  text-align:center;
+  padding-top:40px;
+  }
 /* Home Page
 --------------------------------------------- */
 
@@ -536,16 +536,16 @@ img {
   max-width:80%;
   float:left;
   padding:10px;
-	margin:0 10%;
-	padding-bottom:0px;
+  margin:0 10%;
+  padding-bottom:0px;
   }
 .dots {
   padding:10px;
   border-top:#888 dotted 3px;
-	width:80%;
-	margin:10px auto 0px;
-	text-align:center;
-	}
+  width:80%;
+  margin:10px auto 0px;
+  text-align:center;
+  }
 
 .page-id-42 img.alignnone {
   margin: 0 0 0 0;
@@ -1394,8 +1394,8 @@ main.content,
   margin-top: -58px; /* height of h1.entry-title */
 }
 .topPad {
-	padding-top:80px;
-	}
+  padding-top:80px;
+  }
 .shop-graybar,
 #blog-blurb {
   border-top:#6A9BAA solid 1px;
@@ -1405,8 +1405,8 @@ main.content,
   margin-bottom:20px;
 }
 #blog-blurb {
-	  margin-top:20px;
-	}
+    margin-top:20px;
+  }
 .shop-graybar p {
   font-size: 14px;
   margin: 0;
@@ -1770,8 +1770,8 @@ a[rel~="attachment"]:hover,
 /* let the article padding take care of this here */
 .page-template-page_blog h2.entry-title {
     margin-top: 0;
-	font-size:28px;
-	line-height:1.2;
+  font-size:28px;
+  line-height:1.2;
 }
 
 /* Banner Pages */
@@ -2915,7 +2915,7 @@ background: #a4c4cf !important;
   }
   .coverImage {
     max-width:50%;
-		margin:0;
+    margin:0;
   }
 }
 
@@ -2934,7 +2934,7 @@ background: #a4c4cf !important;
   }
   p.inner-locations {
     margin: 0;
-	color:#6A9BAA;
+  color:#6A9BAA;
   }
   .home h1 { 
     margin 0 80px;
