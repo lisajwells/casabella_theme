@@ -555,7 +555,8 @@ img {
 /* Interior Page
 --------------------------------------------- */
 
-#interior-picnav {
+#interior-picnav-left,
+#interior-picnav-right {
   overflow: hidden;
   margin-bottom:0;
   border-bottom:#F2F3F4 solid 10px;
@@ -581,13 +582,15 @@ img {
 
 
 @media only screen and (min-width: 600px) {
-  #interior-picnav {
+  #interior-picnav-left,
+  #interior-picnav-right {
     margin-bottom:30px;
   }
 }
 @media only screen and (min-width: 930px) {
 
-  #interior-picnav {
+  #interior-picnav-left,
+  #interior-picnav-right {
     margin-bottom:0;
   }
   .interior-content-img {
@@ -631,7 +634,9 @@ img {
   .page-template-page-interior h2 {
     margin-top: 0;
   }
-  .page-template-page-interior #interior-picnav {
+  .page-template-page-interior #interior-picnav-left,
+  .page-template-page-interior #interior-picnav-right
+   {
     overflow: hidden;
   }
 }
