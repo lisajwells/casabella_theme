@@ -555,34 +555,20 @@ img {
 /* Interior Page
 --------------------------------------------- */
 
-.page-template-page-interior main.content {
-  width: 100%;
-}
-.page-template-page-interior article {
-  width: 80%;
-  margin: 0 auto;
-}
-
 #interior-picnav-left,
 #interior-picnav-right {
   overflow: hidden;
   margin-bottom:0;
   /*border-bottom:#F2F3F4 solid 10px;*/
-}
+/*  position: absolute;
+  top: 0;
+*/}
 
 #interior-picnav-left {
   /*left: 0;*/
-  margin-top: 40px;
-  float: left;
-  width: 50%;
 }
-
 #interior-picnav-right {
   /*right: 0;*/
-  margin-top: 40px;
-  float: right;
-  width: 50%;
-
 }
 
 .interior-nav-label {
@@ -591,19 +577,79 @@ img {
     height: auto;
     letter-spacing: 3px;
     line-height: 1.2;
-    margin: 0 5%;
-    padding: 9px 6px;
+    margin:0 5%;
+    padding: 12px;
     text-align: center;
     text-transform: uppercase;
     top: 0;
     width: 90%;
     z-index: 10;
-    font-size: 13px;
+}
+
+.interior-content-img {
+  display: none; /* until browser gets wider */
+}
+
+
+@media only screen and (min-width: 600px) {
+  #interior-picnav-left,
+  #interior-picnav-right {
+    margin-bottom:30px;
+  }
+}
+@media only screen and (min-width: 930px) {
+
+  #interior-picnav-left,
+  #interior-picnav-right {
+    margin-bottom:0;
+  }
+  .interior-content-img {
+    display: block; 
+    width: 30%;
+    margin: 0;
+  }
+  .page-template-page-interior main.content {
+    margin: 0;
+    max-width: none;
+    position: relative; /* for absolute nav */
+    width: 100%;
+  }
+  .page-template-page-interior img.alignleft {
+    margin: 0;
+  }
+/*  .interior-content-wrap {
+      float: right;
+      margin: 4%;
+      width: 62%;
+  }
+  .interior-content-wrap-left {
+      float: left;
+      margin: 4%;
+      width: 62%;
+  }*/
+  .padded {
+  padding:40px;
+  padding-left:80px;
+  }
+  .padded-left-only {
+    padding-left:20px;  
+  }
 }
 
 /*this is to match interior subpages which have h1, with margin*/
 .page-template-page-interior h2 {
   margin-top: 40px;
+}
+/*when the vertical rules appear the margin has to go away to align*/
+@media only screen and (min-width: 930px) {
+  .page-template-page-interior h2 {
+    margin-top: 0;
+  }
+  .page-template-page-interior #interior-picnav-left,
+  .page-template-page-interior #interior-picnav-right
+   {
+    overflow: hidden;
+  }
 }
 
 .navpic-wrapper img {
@@ -615,6 +661,7 @@ img {
 }
 
 /*Interior sub-pages have active-page highlight. Try functions later*/
+
 .page-id-90 #navpic-residential img,
 .page-id-92 #navpic-commercial img, 
 .page-id-94 #navpic-construction img, 
@@ -637,7 +684,6 @@ img {
 @media only screen and (min-width: 768px) {
   #interior-picnav-left,
   #interior-picnav-right {
-    width: 25%;
     overflow: hidden;
     margin-bottom:0;
     /*border-bottom:#F2F3F4 solid 10px;*/
@@ -651,13 +697,6 @@ img {
   #interior-picnav-right {
     right: 0;
   }
-
-  .interior-nav-label {
-    padding: 12px;
-    font-size: 17px;
-}
-
-
 }
 
 /* Gallery Page
