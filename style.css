@@ -694,7 +694,9 @@ img {
   #interior-picnav-right {
     right: 0;
   }
-
+  .page-template-page-interior .notch-wrapper {
+      margin-bottom: 40px;
+    }
 
 }
 /* this is where hamburger goes away */
