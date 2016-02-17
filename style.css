@@ -567,7 +567,6 @@ img {
 #interior-picnav-right {
   overflow: hidden;
   margin-bottom:0;
-  /*border-bottom:#F2F3F4 solid 10px;*/
 }
 
 #interior-picnav-left {
@@ -582,7 +581,6 @@ img {
   margin-top: 40px;
   float: right;
   width: 50%;
-
 }
 
 .interior-nav-label {
@@ -634,13 +632,27 @@ img {
 */}
 
 
+@media only screen and (min-width: 420px) {
+  .interior-nav-label {
+    padding: 12px;
+    font-size: 17px;
+  }  
+}
+
 @media only screen and (min-width: 768px) {
-  #interior-picnav-left,
+
+.navpic-wrapper {
+    margin: 0 0 0 0;
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+/*  #interior-picnav-left,
   #interior-picnav-right {
     width: 25%;
     overflow: hidden;
     margin-bottom:0;
-    /*border-bottom:#F2F3F4 solid 10px;*/
     position: absolute;
     top: 0;
   }
@@ -651,12 +663,7 @@ img {
   #interior-picnav-right {
     right: 0;
   }
-
-  .interior-nav-label {
-    padding: 12px;
-    font-size: 17px;
-}
-
+*/
 
 }
 
