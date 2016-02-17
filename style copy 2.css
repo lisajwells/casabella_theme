@@ -555,10 +555,6 @@ img {
 /* Interior Page
 --------------------------------------------- */
 
-.page-template-page-interior .site-container {
-  position: relative;
-}
-
 .page-template-page-interior main.content {
   width: 100%;
 }
@@ -659,7 +655,6 @@ img {
   .page-template-page-interior main.content {
     max-width: none;
     width: 50%;
-    min-height: 1037px;
     /*position: relative;*/
   }
   .page-template-page-interior article {
@@ -681,7 +676,6 @@ img {
   #interior-picnav-left,
   #interior-picnav-right {
     width: 22%;
-    max-width: 300px;
     overflow: hidden;
     margin-bottom:0;
     position: absolute;
