@@ -653,12 +653,9 @@ img {
 @media only screen and (min-width: 900px) {
 
   .page-template-page-interior main.content {
+    width: 56%;
     /*position: relative;*/
   }
-
-.page-template-page-interior article {
-  padding: 0 8em;
-}
 
   .navpic-wrapper {
       margin: 0 0 0 0;
@@ -669,11 +666,11 @@ img {
 
   #interior-picnav-left,
   #interior-picnav-right {
-    width: 25%;
+    width: 22%;
     overflow: hidden;
     margin-bottom:0;
     position: absolute;
-    top: 8em;  
+    top: 12em;  
   }
 
   #interior-picnav-left {
