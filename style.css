@@ -641,20 +641,39 @@ img {
 
 @media only screen and (min-width: 768px) {
 
-.navpic-wrapper {
-    margin: 0 0 0 0;
-    position: relative;
-    width: 50%;
-    display: inline-block;
-    float: left;
+  .navpic-wrapper {
+      margin: 0 0 0 0;
+      position: relative;
+      width: 50%;
+      display: inline-block;
+      float: left;
+  }
 }
-/*  #interior-picnav-left,
+
+@media only screen and (min-width: 900px) {
+
+  .page-template-page-interior main.content {
+    /*position: relative;*/
+  }
+
+.page-template-page-interior article {
+  padding: 0 8em;
+}
+
+  .navpic-wrapper {
+      margin: 0 0 0 0;
+      position: relative;
+      width: 100%;
+      display: block;
+  }
+
+  #interior-picnav-left,
   #interior-picnav-right {
     width: 25%;
     overflow: hidden;
     margin-bottom:0;
     position: absolute;
-    top: 0;
+    top: 8em;  
   }
 
   #interior-picnav-left {
@@ -663,7 +682,7 @@ img {
   #interior-picnav-right {
     right: 0;
   }
-*/
+
 
 }
 
