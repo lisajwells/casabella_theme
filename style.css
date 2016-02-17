@@ -682,6 +682,18 @@ img {
 
 
 }
+/* this is where hamburger goes away */
+@media only screen and (min-width: 930px) {
+  #interior-picnav-left,
+  #interior-picnav-right {
+    width: 22%;
+    overflow: hidden;
+    margin-bottom:0;
+    position: absolute;
+    top: 8em;  
+  }
+
+}
 
 /* Gallery Page
 --------------------------------------------- */
