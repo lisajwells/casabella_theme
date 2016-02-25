@@ -8,7 +8,6 @@ function casabella_interior_add_navpics() {
 
 	echo '
 		<div id="interior-picnav-left">
-
 			<a href="'. get_home_url() .'/interior-design-massachusetts/home-interior-design">
 				<figure class="navpic-wrapper" id="navpic-residential">
 					<img src="'. get_home_url() .'/wp-content/uploads/2016/02/residential-design.jpg" alt="Residential"/>
@@ -16,21 +15,19 @@ function casabella_interior_add_navpics() {
 				</figure>
 			</a>
 			
-			<a href="'. get_home_url() .'/interior-design-massachusetts/interior-design-firms">
-				<figure class="navpic-wrapper" id="navpic-construction">
-					<img src="'. get_home_url() .'/wp-content/uploads/2016/02/a-la-carte-services.jpg" alt="Construction"/>
-					<p class="interior-nav-label" id="construction-label">Construction Phase</p>
-				</figure>
-			</a>
-
-		</div>
-
-		<div id="interior-picnav-right">
-
 			<a href="'. get_home_url() .'/interior-design-massachusetts/commercial-interior-design">
 				<figure class="navpic-wrapper" id="navpic-commercial">
 					<img src="'. get_home_url() .'/wp-content/uploads/2016/02/construction-phase-design.jpg" alt="Commercial"/>
 					<p class="interior-nav-label" id="commercial-label">Commercial</p>
+				</figure>
+			</a>
+		</div>
+
+		<div id="interior-picnav-right">
+			<a href="'. get_home_url() .'/interior-design-massachusetts/interior-design-firms">
+				<figure class="navpic-wrapper" id="navpic-construction">
+					<img src="'. get_home_url() .'/wp-content/uploads/2016/02/a-la-carte-services.jpg" alt="Construction"/>
+					<p class="interior-nav-label" id="construction-label">Construction Phase</p>
 				</figure>
 			</a>
 
@@ -40,7 +37,6 @@ function casabella_interior_add_navpics() {
 					<p class="interior-nav-label" id="alacarte-label">A la Carte Services</p>
 				</figure>
 			</a>
-			
 		</div>
 		';
 }
