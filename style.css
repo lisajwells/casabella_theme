@@ -604,7 +604,7 @@ img {
 }
 
 .page-template-page-interior h2 {
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 .navpic-wrapper img {
@@ -653,14 +653,15 @@ img {
   }
 }
 
-@media only screen and (min-width: 900px) {
+/* this is where hamburger goes away */
+@media only screen and (min-width: 930px) {
 
   .page-template-page-interior main.content {
     max-width: none;
     width: 50%;
-    min-height: 997px;
-    /*position: relative;*/
+    min-height: 710px; /*pic div is 762 at width 999*/
   }
+
   .page-template-page-interior article {
     width: 100%;
     margin: 0 auto;
@@ -698,10 +699,7 @@ img {
       margin-bottom: 40px;
     }
 
-}
-/* this is where hamburger goes away */
-@media only screen and (min-width: 930px) {
-  #interior-picnav-left,
+      #interior-picnav-left,
   #interior-picnav-right {
     width: 22%;
     overflow: hidden;
@@ -709,7 +707,23 @@ img {
     position: absolute;
     top: 144px;
   }
+  .page-template-page-interior h2 {
+    margin-top: 0;
+  }
 
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .page-template-page-interior main.content {
+    min-height: 788px; /*pic div is 840 at width 1099*/
+  }
+}
+@media only screen and (min-width: 1100px) {
+
+  .page-template-page-interior main.content {
+    min-height: 863px; /*pic div is 916 at width 1199*/
+  }
 }
 
 @media only screen and (min-width: 1130px) {
@@ -719,6 +733,21 @@ img {
     width: 48.717948717948715% !important;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+
+  .page-template-page-interior main.content {
+    min-height: 945px; /*pic div is 994 at width 1299*/
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .page-template-page-interior main.content {
+    min-height: 1006px; /**/
+  }
+}
+
 
 /* Gallery Page
 --------------------------------------------- */
@@ -1445,7 +1474,7 @@ main.content,
 .page-template-page-bleed .content-sidebar-wrap {
     top: 0;
     z-index: 0;
-  margin-top: -58px; /* height of h1.entry-title */
+    /*margin-top: -58px;  height of h1.entry-title */
 }
 .topPad {
   padding-top:80px;
